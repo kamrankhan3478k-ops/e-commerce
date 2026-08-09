@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+<video autoplay muted loop
+playsinline id="background-video">
+<source src="e commerce video.mp4"type="Video/mp4">
+your browser does not support Html5 Video.
+</video>
+<h1>StiloStore</h1>
+<form>
+<h2>Login</h2>
+<input type="username"placeholder="Username">
+<input type="password"placeholder="Password">
+<div class="button-container">
+<button id="search-btn">Search</button>
+<button id="signup-btn">Sign Up</button>
+<button type="button"id="contactus-btn"onclick="toggleFields()">Contact Us</button>
+<button id="Addtocart-btn">Add to Cart</button>
+</div>
+<div id="hidden-fields"
+style="display: none;">
+<label>Message</label>
+<textarea placeholder="write your Message"></textarea> 
+<button>send</button>
+<label>select Gender</label>
+<select>
+<option>male</option>
+<option>female</option>
+<option>rather not say</option>
+</select></div>
+</form>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
